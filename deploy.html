@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Deploy Project</h1>
+<form method="post">
+    <input type="text" name="source" placeholder="Enter GitHub URL" required>
+    <button type="submit">Deploy</button>
+</form>
+{% endblock %}
